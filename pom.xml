@@ -8,10 +8,10 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.uoldiveo.portal</groupId>
-	<artifactId>uoldiveo-portal</artifactId>
+	<groupId>br.com.uoldiveo.portal.loin</groupId>
+	<artifactId>uoldiveo-portal-login</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>uoldiveo-portal</name>
+	<name>uoldiveo-portal-login</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -29,6 +29,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-ldap</artifactId>
+        </dependency>
+		
 	</dependencies>
 
 	<build>

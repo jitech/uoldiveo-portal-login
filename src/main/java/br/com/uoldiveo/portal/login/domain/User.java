@@ -1,4 +1,4 @@
-package br.com.uoldiveo.portal.domain;
+package br.com.uoldiveo.portal.login.domain;
 
 public class User {
 
